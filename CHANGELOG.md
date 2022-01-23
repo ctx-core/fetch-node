@@ -1,6 +1,13 @@
 # @ctx-core/fetch-node
 
+## 0.0.2
+
+### Patch Changes
+
+- - fix: import
+
 ## 0.0.1
+
 ### Patch Changes
 
 - Use types & browser modules from @ctx-core/fetch
