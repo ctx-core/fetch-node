@@ -1,0 +1,56 @@
+{
+	"name": "@ctx-core/fetch-node",
+	"version": "0.0.1",
+	"description": "ctx-core isomorphic fetch using node-fetch",
+	"keywords": [
+		"ctx-core",
+		"isomorphic",
+		"fetch",
+		"node-fetch"
+	],
+	"homepage": "https://github.com/ctx-core/fetch-node#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/fetch-node/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/fetch-node.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"type": "module",
+	"types": "./src/index.d.ts",
+	"svelte": "./src/index.js",
+	"exports": {
+		".": {
+			"browser": "./src/index.browser.js",
+			"node": "./src/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"build": ":",
+		"clean": ":",
+		"exec": "$@",
+		"prepublishOnly": "npm run clean && npm run build && npm run test",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "tsm node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 pnpm test-unit"
+	},
+	"dependencies": {
+		"@ctx-core/fetch": "workspace:^12.0.0",
+		"node-fetch": "next"
+	},
+	"devDependencies": {
+		"c8": "^7.11.0",
+		"check-dts": "^0.6.6",
+		"tsm": "^2.2.1",
+		"typescript": "next",
+		"uvu": "^0.5.3"
+	},
+	"publishConfig": {
+		"access": "public",
+		"cache": "~/.npm"
+	},
+	"sideEffects": false
+}
