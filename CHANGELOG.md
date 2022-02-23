@@ -1,5 +1,13 @@
 # @ctx-core/fetch-node
 
+## 0.1.4
+
+### Patch Changes
+
+- fix: headers\_: server side
+- Updated dependencies
+  - @ctx-core/fetch@12.2.3
+
 ## 0.1.3
 
 ### Patch Changes
