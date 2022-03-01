@@ -1,5 +1,11 @@
 # @ctx-core/fetch-node
 
+## 0.1.6
+
+### Patch Changes
+
+- fix: response*pair*: application/json: text/JSON.parse
+
 ## 0.1.5
 
 ### Patch Changes
