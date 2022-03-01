@@ -1,5 +1,19 @@
 # @ctx-core/fetch-node
 
+## 0.1.5
+
+### Patch Changes
+
+- from @ctx-core/fetch
+
+  - response*pair*:
+
+    fix: application/json: JSON.parse
+
+    - try/catch around JSON.parse: console.error(text)
+
+  - fix: response*pair*: Content-Type headers is falsy
+
 ## 0.1.4
 
 ### Patch Changes
