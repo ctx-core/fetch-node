@@ -1,5 +1,11 @@
 # @ctx-core/fetch-node
 
+## 0.1.7
+
+### Patch Changes
+
+- fix: response*pair*: no Content-Type header: text response
+
 ## 0.1.6
 
 ### Patch Changes
