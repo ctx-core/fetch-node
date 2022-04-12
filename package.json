@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fetch-node",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"description": "ctx-core isomorphic fetch using node-fetch",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/fetch": "workspace:^12.2.8",
+		"@ctx-core/fetch": "^12.2.9",
 		"node-fetch": "next"
 	},
 	"devDependencies": {
