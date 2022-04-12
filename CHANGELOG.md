@@ -1,5 +1,15 @@
 # @ctx-core/fetch-node
 
+## 0.1.8
+
+### Patch Changes
+
+- package.json: exports: update
+- fix: package.json: exports: + default
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/fetch@12.2.8
+
 ## 0.1.7
 
 ### Patch Changes
