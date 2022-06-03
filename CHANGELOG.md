@@ -1,5 +1,11 @@
 # @ctx-core/fetch-node
 
+## 0.1.14
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 0.1.13
 
 ### Patch Changes
