@@ -39,7 +39,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/fetch": "^12.2.17",
+		"@ctx-core/fetch": "^12.2.18",
 		"node-fetch": "next"
 	},
 	"devDependencies": {
