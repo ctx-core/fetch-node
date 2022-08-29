@@ -1,5 +1,13 @@
 # @ctx-core/fetch-node
 
+## 0.1.15
+
+### Patch Changes
+
+- tsx: ^3.8.2 -> ^3.9.0
+- Updated dependencies
+  - @ctx-core/fetch@12.3.2
+
 ## 0.1.14
 
 ### Patch Changes
