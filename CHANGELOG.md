@@ -1,5 +1,13 @@
 # @ctx-core/fetch-node
 
+## 0.1.40
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/fetch@12.3.30
+
 ## 0.1.39
 
 ### Patch Changes
