@@ -1,5 +1,11 @@
 # @ctx-core/fetch-node
 
+## 0.4.1
+
+### Patch Changes
+
+- response*o*: js: fix: return type: response_o_T
+
 ## 0.4.0
 
 ### Minor Changes
