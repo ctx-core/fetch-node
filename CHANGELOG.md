@@ -1,5 +1,11 @@
 # @ctx-core/fetch-node
 
+## 0.2.0
+
+### Minor Changes
+
+- - response\__json_
+
 ## 0.1.132
 
 ### Patch Changes
