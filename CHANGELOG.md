@@ -1,5 +1,17 @@
 # @ctx-core/fetch-node
 
+## 0.3.0
+
+### Minor Changes
+
+- - response\_\_o_T
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/fetch@12.7.0
+
 ## 0.2.0
 
 ### Minor Changes
