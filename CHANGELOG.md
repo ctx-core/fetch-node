@@ -1,5 +1,13 @@
 # @ctx-core/fetch-node
 
+## 0.4.27
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/fetch@12.8.26
+
 ## 0.4.26
 
 ### Patch Changes
