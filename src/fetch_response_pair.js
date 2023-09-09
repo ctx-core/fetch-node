@@ -1,0 +1,8 @@
+import { fetch_response_pair__new2 } from '@ctx-core/fetch'
+import { fetch } from './fetch.js'
+/** @type {import('@ctx-core/fetch').fetch_response_pair__new} */
+export const fetch_response_pair__new =
+	fetch_response_pair__new2(/** @type {typeof fetch} */fetch)
+export {
+	fetch_response_pair__new as fetch_response_pair_,
+}
