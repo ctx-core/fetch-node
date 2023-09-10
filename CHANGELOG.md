@@ -1,5 +1,28 @@
 # @ctx-core/fetch-node
 
+## 1.0.0
+
+### Major Changes
+
+- remove aliased functions:
+
+      - fetch__template_pair_
+      - fetch_response_pair__
+      - fetch_response_pair_2
+      - fetch_response_pair_
+      - fetch_method_
+      - _fetch_method
+      - _method__fetch
+      - headers_
+      - _headers
+      - response_o_
+      - response_pair_
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/fetch@13.0.0
+
 ## 0.5.0
 
 ### Minor Changes
