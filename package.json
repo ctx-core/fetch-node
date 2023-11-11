@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fetch-node",
-	"version": "1.0.34",
+	"version": "1.1.0",
 	"description": "ctx-core isomorphic fetch using node-fetch",
 	"keywords": [
 		"ctx-core",
@@ -19,13 +19,20 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./fetch",
+		"./fetch_response_pair",
+		"./headers",
+		"./Request",
+		"./Response"
+	],
+	"types": "./index.d.ts",
 	"exports": {
 		".": {
-			"browser": "./src/index.browser.js",
-			"default": "./src/index.js",
-			"node": "./src/index.js"
+			"browser": "./index.browser.js",
+			"default": "./index.js",
+			"node": "./index.js"
 		},
 		"./package.json": "./package.json"
 	},
@@ -39,7 +46,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/fetch": "^13.0.34",
+		"@ctx-core/fetch": "^13.1.0",
 		"node-fetch": "next"
 	},
 	"devDependencies": {
