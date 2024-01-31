@@ -1,5 +1,11 @@
 # @ctx-core/fetch-node
 
+## 1.1.130
+
+### Patch Changes
+
+- @ctx-core/fetch: ^13.1.134 -> ^13.1.135
+
 ## 1.1.129
 
 ### Patch Changes
