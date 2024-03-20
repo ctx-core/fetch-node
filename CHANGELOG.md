@@ -1,5 +1,13 @@
 # @ctx-core/fetch-node
 
+## 1.1.168
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 1.1.167
 
 ### Patch Changes
