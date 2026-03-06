@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fetch-node",
-	"version": "1.1.218",
+	"version": "1.1.219",
 	"description": "ctx-core isomorphic fetch using node-fetch",
 	"keywords": [
 		"ctx-core",
